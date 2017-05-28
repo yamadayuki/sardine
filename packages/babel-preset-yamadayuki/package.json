@@ -1,0 +1,29 @@
+{
+  "name": "@yamadayuki/babel-preset",
+  "description": "babel preset for my own",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yuki Yamada <yamadayuuki0818@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadayuki/babel-preset-yamadayuki"
+  },
+  "maintainer": [
+    {
+      "name": "Yuki Yamada",
+      "email": "yamadayuuki0818@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "scripts": {
+    "release": "npm run release-patch",
+    "release-major": "npm version major && git push origin master --tags && npm publish --access=public",
+    "release-minor": "npm version minor && git push origin master --tags && npm publish --access=public",
+    "release-patch": "npm version patch && git push origin master --tags && npm publish --access=public"
+  }
+}

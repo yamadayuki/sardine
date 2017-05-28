@@ -1,0 +1,38 @@
+env:
+  browser: true
+  node: true
+  commonjs: true
+  es6: true
+
+parser: babel-eslint
+parserOptions:
+  ecmaFeatures:
+    experimentalObjectRestSpread: true
+  sourceType: module
+
+plugins:
+  - prettier
+  - flowtype
+  - import
+  - eslint-comments
+
+extends:
+  - plugin:flowtype/recommended
+  - plugin:import/errors
+  - prettier
+  - prettier/flowtype
+
+settings:
+  import/resolver:
+    node:
+      moduleDirectory:
+        - node_modules
+        - ./src
+
+rules:
+  eslint-comments/disable-enable-pair: error
+  eslint-comments/no-duplicate-disable: error
+  eslint-comments/no-unlimited-disable: error
+  eslint-comments/no-unused-disable: error
+  eslint-comments/no-unused-enable: error
+  eslint-comments/no-use: off
