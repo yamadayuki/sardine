@@ -1,7 +1,7 @@
 {
   "name": "@yamadayuki/babel-preset",
   "description": "babel preset for my own",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Yuki Yamada <yamadayuuki0818@gmail.com>",
   "license": "MIT",
