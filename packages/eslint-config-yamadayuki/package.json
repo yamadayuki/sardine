@@ -25,7 +25,7 @@
     "babel-eslint": "^7.2.3",
     "eslint-config-prettier": "^2.1.1",
     "eslint-plugin-eslint-comments": "^1.0.0",
-    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-flowtype": "^3.0.0",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-prettier": "^2.1.1",
     "js-yaml": "^3.8.4",
